@@ -3,6 +3,7 @@
     
     
         public static void main (String[] args){
+            /* 
             Scanner sc = new Scanner(System.in);
             String nome = sc.nextLine();
             System.out.println("Digite seu Nome: " + nome); 
@@ -21,8 +22,15 @@
             else {
                 System.out.println(nome + "tem o voto obrigatório");
             }
-    
-    
-    
+             */ 
+
+            Scanner sc = new Scanner(System.in);
+            System.out.println("Sistemas de idade, digite quantos anos você tem: ");
+            int idade = sc.nextInt();
+            for(int i=0; i < idade; i++){
+                System.out.println("Feliz Aniversário");
+            }
+            sc.close();
+            
     }
 }

@@ -4,14 +4,20 @@ public class  App {
 
     public static void main (String[] args) throws Exception {
         Scanner ler = new Scanner(System.in);
-        
+
+        System.out.println("Digite seu nome: ");
         String nome = ler.nextLine();
-        System.out.println("Digite seu Nome: " + nome); 
+        System.out.println(" ");
+        System.out.println("Seu Nome: " + nome); 
+        System.out.println("Digite sua idade: ");
         int idade = ler.nextInt();
-        System.out.println("Digite sua idade: " + idade );
+        System.out.println(" ");
+        System.out.println("Sua idade: " + idade );
+        System.out.println("Digite sua Altura: ");
         double altura = ler.nextDouble();
-        System.out.println("Digite sua altura: " + altura );
-     
+        System.out.println(" ");
+        System.out.println("Sua altura: " + altura );
+        ler.close();
         System.out.println(" ");
         if (idade < 16){
             System.out.println(nome + " Não poderá votar.");
@@ -20,7 +26,7 @@ public class  App {
             System.out.println(nome + " Tem o voto facultativo");
         }
         else {
-            System.out.println(nome + "tem o voto obrigatório");
+            System.out.println(nome + " tem o voto obrigatório");
         }
 
 /* 
@@ -49,7 +55,7 @@ public class  App {
 
 
 
-
+/* Se preciso rodar em um array de dois em dois pode se usar i += 2 */
 
 
 
